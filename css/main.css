@@ -120,8 +120,24 @@ header h1 {
 
 /* global-nav */
 #target ul > li > a {
-  font-size: 12px;
+  font-size: 13px;
 }
+
+/* main */
+main {
+  margin: 50px 0;
+}
+
+
+.required {
+  color: #ff0000;
+}
+
+.error {
+  color: #ff0000;
+}
+
+
 
 
 
@@ -166,8 +182,16 @@ header h1 {
   padding-right: 5px;
 }
 
+.fnav-right:hover {
+  color: #A0D7DE;
+}
+
 #footer dl > dt {
  color: #3D3D3D; 
+}
+
+#footer dl > dd {
+  padding: 5px 0;
 }
 
 .creative > dd > a,
@@ -176,6 +200,15 @@ header h1 {
 .ir > dd > a
 {
   color: #6B6B6B;
+  text-decoration: none;
+}
+
+.creative > dd > a:hover,
+.gallary > dd > a:hover,
+.company > dd > a:hover,
+.ir > dd > a:hover
+{
+  color: #BCBCBC;
 }
 
 .copyright {
