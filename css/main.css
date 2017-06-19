@@ -126,8 +126,12 @@ header h1 {
 
 
 /* footer */
+
+
 .fnav {
   width: 100%;
+  border-top: 1px solid #eee;
+  padding-top: 15px;
 }
 
 .fnav:after {
@@ -158,6 +162,8 @@ header h1 {
 
 .fnav-right {
   color: #1AA5B8;
+  font-size: 6px;
+  padding-right: 5px;
 }
 
 #footer dl > dt {
@@ -170,4 +176,12 @@ header h1 {
 .ir > dd > a
 {
   color: #6B6B6B;
+}
+
+.copyright {
+  border-top: 1px solid #B7B7B7;
+}
+
+small p {
+    padding: 15px 0;
 }
